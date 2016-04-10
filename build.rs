@@ -13,11 +13,7 @@ fn main() {
     println!("cargo:rustc-link-search=native={}", module_path);
 
     println!("cargo:rustc-link-lib=static=assimp");
-    //
-    // // Link to libstdc++ on GNU
-    // if target.contains("gnu") {
-    //     println!("cargo:rustc-link-lib=stdc++");
-    // }
+    println!("cargo:rustc-link-lib=stdc++");
 
     println!("cargo:rerun-if-changed=build.rs");
 }
