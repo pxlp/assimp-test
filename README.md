@@ -1,1 +1,1 @@
-# assimp-test
+# assimp-build
