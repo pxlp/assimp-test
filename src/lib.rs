@@ -1,4 +1,5 @@
 extern crate assimp;
+extern crate libz_sys;
 
 #[test]
 fn it_works() {
